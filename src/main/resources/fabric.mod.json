@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "nova",
+  "version": "${version}",
+  "name": "NovaClient",
+  "description": "Ore finder, base finder, stash finder + utilitare.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.nova.NovaClient"] },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
